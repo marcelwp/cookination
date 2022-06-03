@@ -313,7 +313,7 @@ MEALS CONTAINER
     grid-template-rows: repeat(2 ,minmax(0, 1fr));
     column-gap: 1rem;
     align-items: stretch;
-    justify-items: stretch;
+    justify-content: stretch;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -335,7 +335,7 @@ RECIPES CONTAINER
     column-gap: 1.5rem;
     row-gap: 1rem;
     align-items: stretch;
-    justify-items: stretch;
+    justify-content: stretch;
 }
 
 .filterRecipes {
@@ -615,14 +615,14 @@ MEDIA QUERIES
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
         align-items: stretch;
-        justify-items: stretch;
+        justify-content: stretch;
     }
 
     .filterRecipes {
         grid-column: 1;
         grid-row: 1 / 6;
         align-items: stretch;
-        justify-items: stretch;
+        justify-content: stretch;
     }
 
     .divPages {
