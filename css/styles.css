@@ -478,10 +478,16 @@ NEWSLETTER
 /**************
 PAGES
 ***************/
+
+.divPages {
+    grid-column: 1 / 3;
+}
+
 .pages {
     list-style-type: none;
     text-align: center;
     color: var(--principal);
+    padding-left: 0;
 }
 
 .pages li {
