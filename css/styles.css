@@ -118,12 +118,15 @@ footer {
 
 .moto {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    font-size: 0.8rem;
 }
 
 footer ul {
     padding-left: 0;
-    font-size: small;
 }
 
 footer ul li {
@@ -202,6 +205,8 @@ h3 {
     text-transform: uppercase;
     font-size: 1.75rem;
     font-weight: 900;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -452,7 +457,7 @@ NEWSLETTER
     text-align: center;
     margin: auto;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .newsletter input[type="email"] {
@@ -597,6 +602,7 @@ MEDIA QUERIES
 
     .icons p, .icons ul {
         display: inline-block;
+        font-size: 0.9rem;
     }
 
     .mealsContainer {
