@@ -1,1 +1,155 @@
-# cookination
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COOKINATION | HOME</title>
+    <meta name="description"
+        content="Cookination homepage. Welcome!">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <a class="header-logo-link" href="index.html"><img src="img/logos/logo.svg" class="header-logo" alt="Cookination"></a>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="sectionWhat">
+        <div class="divCooking">
+            <h1>What are we cooking today?</h1>
+            <form name="search" action="#" method="post">
+                <button type="submit">Search</button>
+                <input type="text" placeholder="Search for a meal..." name="search" id="search" required>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h2 id="latestMeals">Latest Meals</h2>
+        <div class="mealsContainer">
+            <div class="meal">
+                <a href="">
+                    <figure>
+                        <img src="img/meals/chivito.jpg" alt="chivito" class="img-fluid" height="300" width="300">
+                        <figcaption><p>Chivito uruguayo</p></figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="meal">
+                <a href="">
+                    <figure>
+                        <img src="img/meals/lamb-peka.jpg" alt="lamb" class="img-fluid" height="300" width="300">
+                        <figcaption><p>Croatian lamb peka</p></figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="meal">
+                <a href="">
+                    <figure>
+                        <img src="img/meals/rocky-road.jpg" alt="fudge" class="img-fluid" height="300" width="300">
+                        <figcaption><p>Rocky road fudge</p></figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="meal">
+                <a href="">
+                    <figure>
+                        <img src="img/meals/katsudon.jpg" alt="katsudon" class="img-fluid" height="300" width="300">
+                        <figcaption><p>Japanese katsudon</p></figcaption>
+                    </figure>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="shopBackground">
+            <div class="shopAd">
+                <h2 id="shopTitle">Shop</h2>
+                <p>Curious what equipment and pantry staples we love?</p>
+                <p>Chech out or shop, where we share our go-to and recummend appliances, ingredients, tools, and more</p>
+                <p class="recommendations"><a href="">Shop our recommendations</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="pick">
+            <div class="pickText">
+                <p>Pick of the week</p>
+                <h4>Mini chicken pot pies</h4>
+                <p>When it’s cold and rainy outside there’s nothing better than a chicken pot 
+                    pie. But if you’re gluten-free or paleo it can be hard to find a delicious 
+                    recipe that gets you excited and tastes as good as the traditional 
+                    version. Well, I think this recipe is gonna get you excited.
+                </p>
+                <a href="">
+                    <div class="viewRecipe">View recipe</div>
+                </a>
+            </div>
+            <div class="pickImg">
+                <img src="img/pick-week.jpg" alt="pick" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionNewsletter">
+        <div class="container">
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Receive a weekly email with new recipes and recommendations for your cooking</p>
+                <form name="subscribe" action="#" method="post">
+                    <input type="email" placeholder="Your email address" name="email" id="email" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container moto_icons">
+            <div class="moto">
+                <p>Simple recipies that make you feel good</p>
+            </div>
+            
+            <div class="icons">
+                <p>Follow us on</p>
+                <ul>
+                    <li><a href=""><img src="img/icons/twitter.svg" alt="tw"></a></li>
+                    <li><a href=""><img src="img/icons/instagram.svg" alt="inst"></a></li>
+                    <li><a href=""><img src="img/icons/youtube.svg" alt="yt"></a></li>
+                    <li><a href=""><img src="img/icons/facebook.svg" alt="fb"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container horizontal">
+            <hr>
+        </div>
+        <div class="container copyright">
+            <p>2022 &copy; Marcel Weichsel Prat</p>
+            <ul>
+                <li><a href="">Terms and conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Cookies</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
