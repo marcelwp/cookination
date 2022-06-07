@@ -10,9 +10,9 @@
     --body-fons: #FFF7E8;
 }
 
-/************
+/***************
 BODY & GENERAL
-************/
+***************/
 
 body {
     margin: 0 auto;
@@ -47,7 +47,7 @@ p {
     min-width: 250px;
 }
 
-/************
+/*************
 SECTION DIV
 *************/
 section > div {
@@ -55,7 +55,7 @@ section > div {
     margin-right: 2%;
 }
 
-/***********
+/************
 HEADER
 ************/
 .header-logo {
@@ -75,7 +75,7 @@ header .container {
     margin: auto;
 }
 
-/****************************
+/*****************************
 NAVBAR menu
 *****************************/
 nav {
@@ -105,7 +105,7 @@ nav li.active a {
     border-bottom: 1px dashed;
 }
 
-/****************************
+/*****************************
 FOOTER
 *****************************/
 
@@ -145,7 +145,7 @@ footer ul li a:hover {
     color: var(--principal);
 }
 
-/********
+/*********
 ICONS
 *********/
 .icons a:hover {
@@ -247,7 +247,7 @@ form[name=search] {
     max-width: 230px;
 }
 
-/*************
+/****************
 INPUT
 ****************/
 
@@ -266,7 +266,7 @@ input[type=text]:focus {
     outline: none;
 }
 
-/***********
+/************
 BUTTON
 ************/
 
@@ -287,9 +287,9 @@ button[type="submit"]:hover {
 }
 
 
-/*************
+/*****************
 VIEW RECIPE LINK
-*************/
+*****************/
 .viewRecipe {
     display: inline-block;
     border: 1px solid var(--principal);
@@ -302,9 +302,7 @@ VIEW RECIPE LINK
     margin-bottom: 1rem;
 }
 
-
-
-/***************
+/****************
 MEALS CONTAINER
 ****************/
 .mealsContainer {
@@ -399,7 +397,7 @@ SHOP
     color: var(--contrast-light);
 }
 
-/************
+/*************
 PICK
 *************/
 .pick {
@@ -424,21 +422,21 @@ PICK
     text-transform: uppercase;
 }
 
-/*********
+/************
 NEWSLETTER
-**********/
+************/
 
 .sectionNewsletter {
     margin-top: 1rem;
 }
 
-.sectionNewsletter .container {
+.sectionNewsletter {
     position:relative;
     background-color: var(--principal);
     margin: 0 auto;
 }
 
-.sectionNewsletter .container:before {
+.sectionNewsletter:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -480,7 +478,7 @@ NEWSLETTER
     background-color:  var(--contrast-light);
 }
 
-/**************
+/***************
 PAGES
 ***************/
 
@@ -508,15 +506,15 @@ PAGES
 }
 
 
-/***********
+/***************
 FIGCAPTION
-*********/
+***************/
 figcaption p:first-child {
     font-weight: 900;
     text-transform: uppercase;
 }
 
-/*********
+/**********
 EXPLORER
 **********/
 section.explorer > p {
